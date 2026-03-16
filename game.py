@@ -1,8 +1,6 @@
-import json
 import pygame
 import random
 from enum import Enum
-from dataclasses import dataclass
 from collections import namedtuple
 
 pygame.init()
@@ -263,7 +261,7 @@ class SnakeGame:
 		self.head = Point(x, y)
 
 
-if __name__ == '__main__':
+def main():
 	game = SnakeGame()
 
 	# game loop
@@ -278,5 +276,7 @@ if __name__ == '__main__':
 			print('Final Score', score)
 			game = SnakeGame()
 
-
 	pygame.quit()
+
+if __name__ == '__main__':
+    main()
