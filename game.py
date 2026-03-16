@@ -182,7 +182,7 @@ class SnakeGame:
 			idx = i+1
 			slope = (255 // idx) * max(0, min(255, size - food_dist))  # Invert: use (size - food_dist)
 			new_b = max(0, change_color - slope)
-			print(idx, slope, (color[0], int(new_b), color[2]))
+			# print(idx, slope, (color[0], int(new_b), color[2]))
 			return (color[0], int(new_b), color[2])
 		return color
 

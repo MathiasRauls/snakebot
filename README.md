@@ -16,10 +16,15 @@ git clone https://github.com/MathiasRauls/snakebot.git
 cd snakebot
 pip install -e .
 ```
+___
 
 ## Usage
-
 Run the game with:
 ```bash
 snakebot
 ```
+___
+
+## Controls
+**Movement**: <kbd>up</kbd> <kbd>down</kbd> <kbd>left</kbd> <kbd>right</kbd>
+**Quit**: <kbd>q</kbd>
