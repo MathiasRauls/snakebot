@@ -26,5 +26,5 @@ snakebot
 ___
 
 ## Controls
-**Movement**: <kbd>up</kbd> <kbd>down</kbd> <kbd>left</kbd> <kbd>right</kbd>
+**Movement**: <kbd>up</kbd> <kbd>down</kbd> <kbd>left</kbd> <kbd>right</kbd><br>
 **Quit**: <kbd>q</kbd>
