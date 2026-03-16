@@ -28,3 +28,8 @@ ___
 ## Controls
 **Movement**: <kbd>up</kbd> <kbd>down</kbd> <kbd>left</kbd> <kbd>right</kbd><br>
 **Quit**: <kbd>q</kbd>
+___
+
+## Features
+**Big Ole Sniffer**: This 'lil guy can smell the 'food' denoted by the red color growing more intense the closer the snake gets to its 'prey'.
+**Atmosphere**: The perfect blend of synthetic slavery, & retro arcade games.
