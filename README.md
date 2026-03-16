@@ -31,5 +31,5 @@ ___
 ___
 
 ## Features
-**Big Ole Sniffer**: This 'lil guy can smell the 'food' denoted by the red color growing more intense the closer the snake gets to its 'prey'.
+**Big Ole Sniffer**: This 'lil guy can smell the 'food' denoted by the red color growing more intense the closer the snake gets to its 'prey'.<br>
 **Atmosphere**: The perfect blend of synthetic slavery, & retro arcade games.
