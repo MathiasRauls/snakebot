@@ -7,7 +7,7 @@ setup(
     py_modules=["game"],  # your main file name
     entry_points={
         "console_scripts": [
-            "snakebot=game:main",  # "snake" command runs game.py's main()
+            "snakebot=game:main",  # "snakebot" command runs game.py's main()
         ],
     },
 	install_requires=[

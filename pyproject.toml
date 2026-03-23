@@ -1,0 +1,33 @@
+[project]
+name = "snakebot"
+version = "0.1.0"
+description = "An AI trained to do nothing but play snake endlessly... 🐍"
+readme = { file = "README.md", content-type = "text/markdown" }
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+authors = [
+  { name = "Mathias Rauls / Vanderwolf", email = "work@mathiasrauls.com" }
+]
+maintainers = [
+    { name = "Mathias Rauls / Vanderwolf", email = "work@mathiasrauls.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3.12.0",
+]
+
+[project.urls]
+Source = "https://github.com/MathiasRauls/snakebot"
+
+[tool.ruff]
+ignore = ["F403", "F405"]
+indent-width = 4
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[project.scripts]
+snakebot = "game:main"
+trainsnake = "agent:main"
